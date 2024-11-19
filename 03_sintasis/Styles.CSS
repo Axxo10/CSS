@@ -1,0 +1,11 @@
+/* La sintasis se usa para definir estilos que se aplicas a una pagina web, consta de 3 partes principales, 
+
+selector,
+conectores, 
+propiedad: valor;
+el punto y coma se pone en cada valor y se puede omitir en la ultima */
+h1{
+  color: yellowgreen;
+  font-size: 120px;
+  font-family: sans-serif
+}
