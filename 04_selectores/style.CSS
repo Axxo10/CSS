@@ -1,0 +1,49 @@
+/* 
+Selectores
+on patrones que permiten
+seleccionar
+
+tipos de selectores
+1.Selectores basicos
+-universal
+-de tipo
+2. Selectores de clase
+3. Selectores de ID
+4. Selectores combinados
+ -decendentes
+ -hijo directo
+ -elementos adjecentes
+ -hermano general
+ 
+ 5. selector de atribuos
+ -atributos
+ -atibutos + valor
+6. selectores avanzados
+pseudo clases
+pseudo elementos
+*/
+
+/* 
+Selectore basicos
+ */
+ /* 
+ Selectore universal
+  */
+
+*{
+  border: 2px solid red;
+  /* Resset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+h1{
+  color: black;
+}
+p{
+  font-size: 24px;
+}
+header{background-color: yellowgreen;}
