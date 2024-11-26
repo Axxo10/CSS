@@ -21,6 +21,8 @@ tipos de selectores
   propiedad: valor;
 }
  -hijo directo
+ Selecciona elementos que son hijo directos de un elemento padre
+ 
  -elementos adjecentes
  -hermano general
  
@@ -70,6 +72,7 @@ header{background-color: yellowgreen;}
 #about-title{
   color: aquamarine;
   font-size: 72px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* combinado elemento descenendientes */
 aside section {
@@ -78,4 +81,47 @@ aside section {
 
 .aside-section h3 {
   color: beige; text-align: right; padding: 24px; background-color: blue;
+}
+.lista > li {
+  font-size: 28px;
+  color: azure;
+  font-family: fantasy;
+  background-color: blue;
+}
+/* Elemento adyacente */
+h3 + ul {
+  list-style-type: none;
+}
+.bro + li {
+  background-color: cadetblue;
+}
+.bro + li ~ li{
+  background-color: yellowgreen;
+
+}
+.tercero ~ li {
+  color: black;
+  font-size: 30px;
+}
+a[href] {
+  display: block;
+  text-decoration: none;
+  color: antiquewhite;
+}
+a[href="https://www.instagram.com"] {
+  font-size: 60px;
+  color: blueviolet;
+}
+a:hover {
+  background-color: coral;
+  color: azure;
+}
+a:focus {
+  border: 3px solid red; 
+}
+a::after {
+  content: "AAAAAAAA";
+}
+a::before {
+   content: "La matracatacataca";
 }
