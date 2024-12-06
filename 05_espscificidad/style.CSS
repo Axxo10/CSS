@@ -1,0 +1,34 @@
+/* Cascada y especificidad
+e refiere a como el navegador decide aplicar los estilos
+cascada - orden de las reglas de CSS
+especificidad - valor de las reglas de CSS
+
+cascada
+si un selector e repite a lo largo del codigo , se aplicara al ultimo escrito
+
+especificidad
+del menos imporante al mas importnate
+
+*/
+
+/* Cascada */
+h1 {
+  color: tomato;
+}
+h1 {
+  color: aqua;
+}
+
+/* Especificidad */
+h1 {
+  color: aquamarine;
+}
+.title {
+  color: brown
+}
+h1 {
+  color: aqua;
+}
+#title {
+  color: blue;
+}
