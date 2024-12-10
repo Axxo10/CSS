@@ -14,6 +14,10 @@ h1{
   font-size: xx-large;
   font-style: italic;
   text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 2cm;
+  text-shadow: 10px 10px 10px rebeccapurple;
 
 }
 p {
@@ -25,6 +29,10 @@ p {
   font-style: unset;
   text-align: justify;
   text-decoration: none;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: normal
+  ;
 }
 .important {
   text-decoration: underline;
