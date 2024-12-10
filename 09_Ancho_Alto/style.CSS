@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(21, 37, 172);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bloque {
+  background-color: aquamarine;
+  color: black;
+  width: 50%;
+  height: 100px;
+}
+.linea {
+  background-color: aqua;
+  color: black;
+  display: block;
+  display: inline-block;
+}
