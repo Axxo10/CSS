@@ -1,0 +1,22 @@
+body {
+  background-color: burlywood
+}
+html {
+  font-family: sans-serif;
+}
+.content_box {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px solid navy;
+  background-color: aquamarine;
+  box-sizing: content-box;
+}
+.border_box {
+  width: 100px;
+  height:100px;
+  padding: 10px;
+  border: 5px solid navy;
+  background-color: aquamarine;
+  box-sizing: border-box;
+}
