@@ -1,0 +1,27 @@
+body { background-color: beige;}
+html {font-family: sans-serif;}
+
+body { color: black;}
+
+.box {
+  width: 100px;
+  height: 100px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: auto;
+  background-color: yellowgreen;
+}
+.h1 {
+  width:fit-content ;
+  height:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link {
+  display: block;
+  width: fit-content;
+  color: brown;
+  background-color: tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
