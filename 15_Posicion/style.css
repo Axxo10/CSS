@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+}
+.box {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: static;
+}
+.box1 {
+  position: relative;
+  top: 20;
+  left: 29;
+  background-color: bisque;
+}
+.box2 {
+  background-color: tomato;
+}
